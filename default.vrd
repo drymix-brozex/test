@@ -9,7 +9,7 @@
 	<debug enable="false"
 			protocol="tcp"
 			url="localhost"/>
-	<ws enable="false"
+	<ws enable="f444alse"
 			pointEnableCommon="false"/>
 	<standardOdata enable="false"
 			reuseSessions="autouse"
