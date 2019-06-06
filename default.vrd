@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<point xmlns="http://v8.1c.ru/8.2/virtual-resource-system"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		base="/UPP"
+		ib="File=&quot;D:\1C-Fast\UPP-http&quot;;"
+		enable="false"
+		temp="D:\Apache24\UPP\">
+	<debug enable="false"
+			protocol="tcp"
+			url="localhost"/>
+	<ws enable="false"
+			pointEnableCommon="false"/>
+	<standardOdata enable="false"
+			reuseSessions="autouse"
+			sessionMaxAge="20"
+			poolSize="10"
+			poolTimeout="5"/>
+	<httpServices>
+		<service name="HTTPСервисReport"
+				rootUrl="report"
+				enable="true"
+				reuseSessions="autouse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5"/>
+		<service name="HTTPСервисExchange"
+				rootUrl="exchange"
+				enable="true"
+				reuseSessions="autouse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5"/>
+	</httpServices>
+</point>
